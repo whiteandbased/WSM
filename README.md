@@ -1,0 +1,2 @@
+# WSM
+West Slav Mod
