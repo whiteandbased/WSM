@@ -1,0 +1,59 @@
+political_decisions = {
+
+	greater_sorbia = {
+		picture = map_iceland
+		potential = {
+			tag = LUZ
+			NOT = { has_country_flag = greater_sorbia }			
+		}
+				
+		allow = {
+			war = no
+			#is_vassal = no
+			#nationalism_n_imperialism = 1
+			#government = fascist_dictatorship
+		}
+		
+		effect = {
+			set_country_flag = greater_sorbia
+			PRU_544 = { add_core = LUZ } #Mecklenburg
+			PRU_549 = { add_core = LUZ } #Brandenburg
+			PRU_553 = { add_core = LUZ } #Magdeburg
+			SAX_558 = { add_core = LUZ } #Saxony
+			
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	sorbian_language_schooling = {
+		picture = embrace_minority
+		potential = {
+			tag = LUZ
+			#has_country_flag = greater_sorbia
+			NOT = { has_country_flag = enacted_sorbian_schooling }
+		}
+		
+		allow = {
+			war = no
+			#NOT = { school_reforms = no_schools }
+			#invention = biased_multiculturalism
+			#invention = social_darwinism
+		}
+		
+		effect = {
+			set_country_flag = enacted_sorbian_schooling
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = GER
+						culture = north_german
+					}
+				}
+				add_province_modifier = {
+					name = french_cultural_unity
+					duration = -1
+				}
+			}
+		}
+	}
+}
