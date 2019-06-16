@@ -413,6 +413,18 @@
 		religion = jewish
 		size = 975
 	}
+
+	clergymen = {
+		culture = wendish
+		religion = protestant
+		size = 5   
+	}
+
+	farmers = {
+		culture = wendish
+		religion = protestant
+		size = 245   
+	}
 }
 #Neustrelitz (90000/22500 POPS)
 545 = {
@@ -444,6 +456,18 @@
 		culture = north_german
 		religion = protestant
 		size = 19950
+	}
+
+	clergymen = {
+		culture = wendish
+		religion = protestant
+		size = 5   
+	}
+
+	farmers = {
+		culture = wendish
+		religion = protestant
+		size = 245   
 	}
 }
 #Hannover Region (1288000)
@@ -1068,6 +1092,18 @@
 		religion = protestant
 		size = 29725
 	}
+
+	clergymen = {
+		culture = wendish
+		religion = protestant
+		size = 5   
+	}
+
+	farmers = {
+		culture = wendish
+		religion = protestant
+		size = 245   
+	}
 }
 #Stralsund (157000/39250 POPS)
 548 = {
@@ -1135,6 +1171,18 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 245
+	}
+
+	clergymen = {
+		culture = wendish
+		religion = protestant
+		size = 5   
+	}
+
+	farmers = {
+		culture = wendish
+		religion = protestant
+		size = 245   
 	}
 }
 #Brandenburg Region (1628000) #see Poland.txt for balance of region
@@ -1290,6 +1338,18 @@
 		religion = catholic
 		size = 2900   
 	}
+
+	clergymen = {
+		culture = wendish
+		religion = protestant
+		size = 5   
+	}
+
+	farmers = {
+		culture = wendish
+		religion = protestant
+		size = 245   
+	}
 }
 #Prenzlau (280000/70000 POPS)
 550 = {
@@ -1322,6 +1382,18 @@
 		religion = protestant
 		size = 62500
 	}
+
+	clergymen = {
+		culture = wendish
+		religion = protestant
+		size = 5   
+	}
+
+	farmers = {
+		culture = wendish
+		religion = protestant
+		size = 245   
+	}
 }
 #Pritzwalk (232000/58000 POPS)
 551 = {
@@ -1353,6 +1425,18 @@
 		culture = north_german
 		religion = protestant
 		size = 51875
+	}
+
+	clergymen = {
+		culture = wendish
+		religion = protestant
+		size = 5   
+	}
+
+	farmers = {
+		culture = wendish
+		religion = protestant
+		size = 245   
 	}
 }
 #Cottbus (344000/86000 POPS)
@@ -1639,6 +1723,18 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 245    
+	}
+
+	clergymen = {
+		culture = wendish
+		religion = protestant
+		size = 5   
+	}
+
+	farmers = {
+		culture = wendish
+		religion = protestant
+		size = 245   
 	}
 }
 #Stendal (140000/35000 POPS)
@@ -1932,6 +2028,18 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 900
+	}
+
+	clergymen = {
+		culture = wendish
+		religion = protestant
+		size = 5   
+	}
+
+	farmers = {
+		culture = wendish
+		religion = protestant
+		size = 245   
 	}
 }
 #Chemnitz (280000/70000 POPS)
@@ -4682,6 +4790,30 @@
 		religion = catholic
 		size = 3680  
 	}
+
+	artisans = {
+		culture = wendish
+		religion = protestant
+		size = 1500
+	}
+
+	soldiers = {
+		culture = wendish
+		religion = protestant
+		size = 100  
+	}
+
+	clergymen = {
+		culture = wendish
+		religion = protestant
+		size = 100   
+	}
+
+	farmers = {
+		culture = wendish
+		religion = protestant
+		size = 4500   
+	}
 }
 
 #East Prussia Region (712000) #see Poland.txt and Lithuania.txt for balance of region
@@ -4691,73 +4823,73 @@
 	aristocrats = {
 		culture = north_german
 		religion = protestant
-		size = 2250 
+		size = 1900 
 	}
 
 	bureaucrats = {
 		culture = north_german
 		religion = protestant
-		size = 1300
+		size = 1100
 	}
 
 	officers = {
 		culture = north_german
 		religion = protestant
-		size = 250  
+		size = 200  
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 825  
+		size = 700  
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 10000
+		size = 8500
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 5000
+		size = 4250
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 3000
+		size = 2550
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 68875
+		size = 78000
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = catholic
-		size = 175   
+		size = 150   
 	}
 
 	artisans = {
 		culture = north_german
 		religion = catholic
-		size = 1100
+		size = 950
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 1000
+		size = 850
 	}
 
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 18025
+		size = 15300
 	}
 
 	clergymen = {
@@ -4769,55 +4901,55 @@
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 495
+		size = 195
 	}
 
 	clergymen = {
 		culture = polish
 		religion = protestant
-		size = 75  
+		size = 100  
 	}
 
 	artisans = {
 		culture = polish
 		religion = protestant
-		size = 250
+		size = 350
 	}
 
 	soldiers = {
 		culture = polish
 		religion = protestant
-		size = 50 
+		size = 75 
 	}
 
 	farmers = {
 		culture = polish
 		religion = protestant
-		size = 4625 
+		size = 6900 
 	}
 
 	clergymen = {
 		culture = lithuanian
 		religion = protestant
-		size = 50
+		size = 75
 	}
 
 	artisans = {
 		culture = lithuanian
 		religion = protestant
-		size = 250
+		size = 350
 	}
 
 	soldiers = {
 		culture = lithuanian
 		religion = protestant
-		size = 50 
+		size = 75 
 	}
 
 	farmers = {
 		culture = lithuanian
 		religion = protestant
-		size = 5650
+		size = 49000
 	}
 }
 #Gumbinnen (228000/57000 POPS) #now part of Russia 
@@ -4825,79 +4957,79 @@
 	aristocrats = {
 		culture = north_german
 		religion = protestant
-		size = 1100 
+		size = 935 
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 475   
+		size = 400   
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 2600
+		size = 2200
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 550  
+		size = 450  
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 47275
+		size = 21550
 	}
 
 	clergymen = {
 		culture = polish
 		religion = protestant
-		size = 25 
+		size = 50 
 	}
 
 	artisans = {
 		culture = polish
-		religion = protestant
-		size = 100
-	}
-
-	soldiers = {
-		culture = polish
-		religion = protestant
-		size = 25 
-	}
-
-	farmers = {
-		culture = polish
-		religion = protestant
-		size = 1850 
-	}
-
-	clergymen = {
-		culture = lithuanian
-		religion = protestant
-		size = 25 
-	}
-
-	artisans = {
-		culture = lithuanian
 		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
+		culture = polish
+		religion = protestant
+		size = 50 
+	}
+
+	farmers = {
+		culture = polish
+		religion = protestant
+		size = 2750 
+	}
+
+	clergymen = {
 		culture = lithuanian
 		religion = protestant
-		size = 25 
+		size = 50 
+	}
+
+	artisans = {
+		culture = lithuanian
+		religion = protestant
+		size = 225
+	}
+
+	soldiers = {
+		culture = lithuanian
+		religion = protestant
+		size = 50 
 	}
 
 	farmers = {
 		culture = lithuanian
 		religion = protestant
-		size = 3800 
+		size = 26225 
 	}
 }
 
